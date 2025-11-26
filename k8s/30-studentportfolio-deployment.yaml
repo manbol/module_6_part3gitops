@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: studentportfolio
-          image: ghcr.io/manbol/module_6_part3gitops-studentportfolio:289f013716cd97b57df4952611fa0a3c5f4cf407
+          image: ghcr.io/manbol/module_6_part3gitops-studentportfolio:1a87b117ed159662dbcb4bf10aa9157abffa5a61
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
