@@ -18,7 +18,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: syncer
-          image: ghcr.io/manbol/module_6_part3gitops-syncer:c62a158a08575dc8b9252ac11115ded7be2f7bb4
+          image: ghcr.io/manbol/module_6_part3gitops-syncer:97b84944bf35360b892b2da7b28cd4c1712c7c9e
           env:
             - name: SRC_URI
               value: mongodb://mongo-backend:27017
