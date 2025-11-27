@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/manbol/module_6_part3gitops-backend:a85c22e4dd9c75fff6756d253a1a4538e27cca56
+          image: ghcr.io/manbol/module_6_part3gitops-backend:bec5b63b243556ed9e6019afb093e84b0561c678
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
