@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/manbol/module_6_part3gitops-transactions:5115a2230adb6ef4e1a3382559e69f8e43ce379d
+          image: ghcr.io/manbol/module_6_part3gitops-transactions:70ec4906a79ed93b567d31db68d5df1f37fcdcc5
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
